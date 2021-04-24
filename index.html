@@ -13,69 +13,122 @@
         width="100%" height="100">
     <header style="width: 100%; text-align: center; background-color: white">
         <h1>DESTINATION ANYWHERE</h1>
-        <h2>Make your dreams happen!</h2>
+        <h2>Make your dreams happen for all Budgets!</h2>
     </header>
-    <table>
-        <tr style="text-align: center; width: 20%; background-color: turquoise; color: white;">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://belize.com/">Tropical Destinations</a>
-                    </li>
-                    <li>
-                        <a href="https://www.onlyinyourstate.com/virginia/hawksbill-gap-views-va/">Mountain Peaks</a>
-                    </li>
-                    <li>
-                        <a href="https://www.japan.travel/national-parks/parks/iriomote-ishigaki/">Star Gazing</a>
-                    </li>
-                    <li>
-                        <a href="https://www.utopiatica.com/">Hostel Eco & Volunteering</a>
-                    </li>
-                    <li>
-                        <a href="https://asa.com/news/2019/12/30/what-you-need-to-know-about-sailing-vacations/">Sailing</a>
-                    </li>
-                </ul>
-            </nav>
-        </tr>
+     
+    <nav style="text-align: center; background-color: peru; text-decoration-thickness: 10; text-emphasis-color: 10; border-color: black;">
+        <a href="https://belize.com/">Tropical Destinations</a>
+        <a href="https://www.onlyinyourstate.com/virginia/hawksbill-gap-views-va/">Mountain Peaks</a>
+        <a href="https://www.japan.travel/national-parks/parks/iriomote-ishigaki/">Star Gazing</a>
+        <a href="https://www.utopiatica.com/">Hostel Eco & Volunteering</a>
+        <a href="https://asa.com/news/2019/12/30/what-you-need-to-know-about-sailing-vacations/">Sailing</a>
+    </nav>
+    <hr />
+    <br />
 
-        <tr style="text-align: center; width: 40%; background-color:white;">
-            <table>
-                <tr>
-                    <th>
-                        <iframe src="https://youtu.be/hC6GT60_05A"
-                            frameborder="0"
-                            width="300" height="200">
-                        </iframe>
-                    </th>
-                    <th>
-                        <iframe src="https://www.youtube.com/watch?v=KVi5_BUHWA0"
-                            frameborder="0"
-                            width="300" height="200">
-                        </iframe>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <iframe src="https://youtu.be/s4TXQN5mF1s"
-                            frameborder="0"
-                            width="300" height="200">
-                        </iframe>
-                    </td>
-                    <td>
-                        <iframe src="https://www.youtube.com/watch?v=U3wjtRTmk6o"
-                            frameborder="0"
-                            width="300" height="200">
-                        </iframe>
-                    </td>
-                </tr>
-            </table> 
-
+    <table style="text-align: justify">
+        <tr>
+            <th>
+                <iframe src="https://youtu.be/hC6GT60_05A"
+                    frameborder="0"
+                    width="500" height="400">
+                </iframe>
+            </th>
+            <th>
+                <iframe src="https://www.youtube.com/watch?v=KVi5_BUHWA0"
+                    frameborder="0"
+                    width="500" height="400">
+                </iframe>
+            </th>
         </tr>
-        <tr style="text-align: center; width: 40%; background-color:turquoise;">
-            <div>
-
-            </div>
+        <tr>
+            <td>
+                <iframe src="https://youtu.be/s4TXQN5mF1s"
+                    frameborder="0"
+                    width="500" height="400">
+                </iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/watch?v=U3wjtRTmk6o"
+                    frameborder="0"
+                    width="500" height="400">
+                </iframe>
+            </td>
         </tr>
-    </table>
+    </table> 
+    
+    <div style="border: peru; padding: .10 rem;">
+        <form>
+            <fieldset>
+                <legend> Want us to contact you?</legend>
+                <p>
+                    <label>
+                        Name:
+                        <input name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Phone Number:
+                        <input type="tel" name="tel" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email Address: 
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Budget Considerations:
+                        <input type="budget" name="budget" />
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Submit Information</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <hr />
+    <br />
+    <fieldset>
+        <legend>Considerations</legend>
+        <p>
+            <input type="checkbox" name="considerations"
+                id="beach" value="beach" />
+            <label for="beach">Beach</label>
+        </p>
+        <p>
+            <input type="checkbox" name="considerations"
+                id="OutDoorAdventure" value="OutDoorAdventure" />
+            <label for="OutDoorAdventure">Out Door Adventures</label>
+        </p>
+        <p>
+            <input type="checkbox" name="considerations"
+                id="mountain" value="mountain" />
+            <label for="mountain">Mountain Hiking-Climbing</label>
+        </p>
+        <p> 
+            <input type="checkbox" name="considerations"
+                id="stars" value="stars" />
+            <label for="stars">Star Gazing</label>
+        </p>
+        <p>
+            <input type="checkbox" name="considerations"
+                id="Sailing" value="Sailing" />
+            <label for="Sailing">Sailing</label>
+        </p>
+        <p>
+            <input type="checkbox" name="considerations"
+                id="overseas" value="overseas" />
+            <label for="overseas">Passport Destination</label>
+        </p>
+        <p>
+            <button type="submit">Submit Considerations</button>
+        </p>
+    </fieldset>
+    
 </body>
 </html>
